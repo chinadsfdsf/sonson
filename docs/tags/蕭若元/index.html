@@ -13,23 +13,20 @@
   <meta name="robots"                content="all,follow" />
   <meta name="googlebot"             content="index,follow,snippet,archive" />
   <meta name="author"                content='anonymous' />
-  <meta name="keywords"              content=' front, features ' />
-  
-  <meta name="description"           content='Twitter !' />
+  <meta name="keywords"              content='foo, bar' />
+  <meta name="description"           content='example site created with hugo using theme hugo-theme-w3css-basic' />
   
   <!-- partials/head.meta.og.html -->
   <meta property="og:site_name"      content="https://sonson.chindsf.org" /> 
-  <meta property="og:title"          content=" Twitter " /> 
-  <meta property="og:description"    content="Twitter !
-" /> 
-  <meta property="og:url"            content="/hot/twitter/" /> 
+  <meta property="og:title"          content="蕭若元" /> 
+  
+  <meta property="og:url"            content="/tags/%E8%95%AD%E8%8B%A5%E5%85%83/" /> 
   <meta property="og:image"          content='/images/favicons/apple-touch-icon.png' /> 
 
   
   <!-- partials/head.meta.twitter.html -->
-  <meta property="twitter:title"          content=" Twitter " /> 
-  <meta property="twitter:description"    content="Twitter !
-" /> 
+  <meta property="twitter:title"          content="蕭若元" /> 
+  
   <meta property="twitter:image"          content='/images/favicons/apple-touch-icon.png' /> 
 
     <!-- back in partials/head.html  -->
@@ -589,55 +586,83 @@
         <!-- back in _default/baseof.html  -->
       </header>
       <div id="canvas" class='w3-container w3-theme-l4 '>
-        <!-- block headline _default/baseof.html  -->
-          <h1 class='w3-panel w3-theme-l2 '>
-            Twitter
-            <span style="float:right;"><a class="headline-button w3-btn" href="../"><i class="fas fa-arrow-up"></i></a><button id="btnback" class="headline-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button></span>
-          </h1>
-        <!-- block main _default/baseof.html  -->
-        
-  <!-- partials/head.blog.date.html -->
-
-  <!-- partials/main.taxonomy.current.html --><div class="w3-right-align "><a href='/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open"></i></a>
-    <a href='/categories/features' class="taxonomy-button w3-button">features</a><a href='/tags' class="taxonomy-button w3-button"><i class="fas fa-tags"></i></a>
-    <a href='/tags/front' class="taxonomy-button w3-button">front</a>
-</div>
-  <!-- partials/main.teaserpic.single.html --> 
+<!-- _default/taxonomy.html (headline)  -->
+  <h1 class='w3-panel w3-theme-l2 '><i class="w3-margin-right fas fa-tag"         aria-hidden="true"></i>Tag: 蕭若元
+    <span style="float:right;"><button id="btnback" class="headline-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button></span>
+  </h1>
+<!-- _default/taxonomy.html (main)  -->
+    <!--  .Paginate .Data.Pages -->
   
+  
+  <!-- partials/main.paginator.bar.html -->
+
+<div class='w3-center w3-round-xxlarge w3-margin-top w3-margin-bottom w3-theme-l1 '>
+  <div class="w3-bar " style="vertical-align: middle" >
+    <a href="#"                                            class="w3-bar-item w3-button w3-disabled">&larr; prev</a>
+    <a href="#"                                            class="w3-bar-item w3-button w3-disabled">next &rarr;</a>
+  </div> 
+</div> 
+
+    <!--  back in _default/taxonomy.html  -->
+    <!-- range $paginator.Pages -->
+
+  <div id='TaxonomyContainer' class=' w3-theme-l4 '>
+  
+    <div class="w3-cell-row w3-margin-top  display-table-spaced-cells ">
+      <div class='w3-cell w3-mobile w3-margin-right w3-round w3-hover-shadow w3-opacity-min w3-hover-opacity-off w3-theme-l3 '>
+          
+  <!-- partials/main.teaser_in_card.html -->
+<a class="no-decoration" target="_blank" href='/blog/2020/06/07/2020_0607_2251pm/'>
+
+  
+    <!-- back in partials/main.teaser_in_card.html -->
+
+  <div class="w3-margin-left w3-margin-right">
+
+    <h3>
+    童真系列：蕭生講童話1 蕭若元
+    </h3>
+
+    
+  <!-- partials/main.teaserpic.card.html --> 
+
   <!-- partials/resource.image.html  --> 
 
- 
-  <!-- partials/main.toc.single.html -->
 
-        <!-- back in _default/baseof.html  -->
-        <!-- now Content  -->
-        
-            
-        <div style="font-size:150%;"></div>
+    <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>7. Jun 2020</i></div>童真系列：蕭生講童話1 蕭若元   童真系列：蕭生講童話1 蕭若元  童真系列：蕭生講童話1 蕭若元
 
+  </div>
+</a>
 
-  <!-- partials/main.related.html -->
+<div class="w3-container w3-center">
+        <a target="_blank" href='/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open" aria-hidden="true"></i></a>
+          <!-- range .Params.categories -->
+        <a class="taxonomy-button w3-button " target="_blank" href='/categories/20200607'>20200607</a><br>
+  </div>
 
+  <div class="w3-container w3-center ">
+      <a target="_blank" href='/tags' class="taxonomy-button w3-button"><i class="fas fa-tags" aria-hidden="true"></i></a>
+          <!-- range .Params.tags -->
+        <a class="taxonomy-button w3-button " target="_blank" href='/tags/mp3'>mp3</a><a class="taxonomy-button w3-button " target="_blank" href='/tags/%E8%95%AD%E8%8B%A5%E5%85%83'>蕭若元</a><a class="taxonomy-button w3-button " target="_blank" href='/tags/202006'>202006</a><a class="taxonomy-button w3-button " target="_blank" href='/tags/20200607'>20200607</a><a class="taxonomy-button w3-button " target="_blank" href='/tags/2020060701'>2020060701</a><br>
+  </div>
 
-
-  <div class='w3-card-4 w3-round-large w3-margin-top w3-margin-bottom w3-theme-l3 '>
-        <br>
-    <div class="w3-container w3-padding-small ">
-      <h3>See Also</h3>
-      <ul>
-          <li style="border:1px dotted dodgerblue;" ><a href="/hot/ch/"> Church </a></li>
-        <br>
-          <li style="border:1px dotted dodgerblue;" ><a href="/hot/youtube/"> Youtube </a></li>
-        <br>
-          <li style="border:1px dotted dodgerblue;" ><a href="/time/001/"> time title </a></li>
-        <br>
-          <li style="border:1px dotted dodgerblue;" ><a href="/hot/alltags/"> 分类列表 </a></li>
-        <br>
-          <li style="border:1px dotted dodgerblue;" ><a href="/hot/tangbaiqiao/"> 唐柏桥 </a></li>
-        <br>
-      </ul>
+      </div>
+               <!-- w3-cell -->
     </div>
-  </div>   
+             <!-- w3-cell-row --> 
+
+  </div>
+           <!-- TaxonomyContainer -->
+
+  
+  <!-- partials/main.paginator.bar.html -->
+
+<div class='w3-center w3-round-xxlarge w3-margin-top w3-margin-bottom w3-theme-l1 '>
+  <div class="w3-bar " style="vertical-align: middle" >
+    <a href="#"                                            class="w3-bar-item w3-button w3-disabled">&larr; prev</a>
+    <a href="#"                                            class="w3-bar-item w3-button w3-disabled">next &rarr;</a>
+  </div> 
+</div> 
 
         <!-- back in _default/baseof.html  -->
       </div>
