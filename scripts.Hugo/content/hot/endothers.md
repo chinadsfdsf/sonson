@@ -14,6 +14,7 @@ categories:
 {{< siteParamsRecentPostsTitle >}} 
 
 {{< my2buildtime "buildtime 创建时间" >}}
+{{< my2linktextonly link="/time/001/" cn=" 全球不同地区时间 " >}}
 
 {{< mydiv4o link="https://hk2006a.chinadsf.org/blog/2020/06/05/20130706_na_jcis0qkn_li/"   text=" 畫叮噹   ">}}
 
